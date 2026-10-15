@@ -91,7 +91,9 @@ These are steady-state models. They assume Poisson arrivals, unlimited waiting s
 
 This project was developed for the HPDM139 module of the MSc Health Data Science at the University of Exeter. The model equations follow the module's technical appendix by T. Monks, which is not included here.
 
-Claude (Anthropic) was used to help refactor the code into a tested package, check calculations and edit the text.
+### AI use statement
+
+Claude (Anthropic) was used to help refactor the code into a tested package, check calculations and edit the text. The author designed the study, scenarios and toolkit, reviewed all changes and takes responsibility for the final content.
 
 ## License
 
