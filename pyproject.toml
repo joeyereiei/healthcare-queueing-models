@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "queuing-models"
+version = "1.0.0"
+description = "M/M/1, M/G/1 and M/M/s queuing models for healthcare capacity planning"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Hataipon Pengkumma" }]
+dependencies = ["numpy>=1.24", "pandas>=2.0", "matplotlib>=3.7"]
+
+[tool.setuptools]
+packages = ["queuing_models"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "queuing_models"]
+addopts = "--doctest-modules"
+pythonpath = ["."]
